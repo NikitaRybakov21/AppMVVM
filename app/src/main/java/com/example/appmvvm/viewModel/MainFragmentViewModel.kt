@@ -12,8 +12,6 @@ class MainFragmentViewModel(private val model : Model = Model()) : ViewModel() ,
     override fun sendServer(){
         val data = model.calc().toString()
 
-        //////
-
         liveData.postValue(AppState.Success(data))
     }
 }
