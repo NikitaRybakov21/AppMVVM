@@ -12,7 +12,7 @@
         android:gravity="center"
         android:textSize="40sp"
         android:layout_marginTop="100dp"
-        android:text="0" />
+        android:text="@string/_0" />
 
     <TextView
         android:id="@+id/textViewTime2"
@@ -21,21 +21,21 @@
         android:gravity="center"
         android:layout_gravity="center"
         android:textSize="40sp"
-        android:text="0" />
+        android:text="@string/_0" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/start1"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="start timer 1"/>
+        android:text="@string/start_timer_1"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/start2"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="start timer 2"/>
+        android:text="@string/start_timer_2"/>
 
 
     <com.google.android.material.button.MaterialButton
@@ -44,20 +44,41 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="stop timer 1"/>
+        android:text="@string/stop_timer_1"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/stop2"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="stop timer 2"/>
+        android:text="@string/stop_timer_2"/>
 
     <EditText
         android:id="@+id/editText"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
