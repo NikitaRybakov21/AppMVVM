@@ -1,6 +1,8 @@
-package koin.someClass
+package com.example.appmvvm.koin.someClass
 
-class Energy(private val string : String = "string2") : IEnergy{
+import com.example.appmvvm.koin.someClass.IEnergy
+
+class Energy(private val string : String = "string2") : IEnergy {
 
     override fun out(){
         System.out.println(string)
