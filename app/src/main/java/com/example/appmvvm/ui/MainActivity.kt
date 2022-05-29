@@ -3,11 +3,22 @@ package com.example.appmvvm.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.appmvvm.R
+import java.util.concurrent.Executors
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        val splash = instalSplashScreen()
+        splash.setKeepOnScrenCondition  { true }
+
+        Executors.newSingleThreadExecutor().execute {
+            Thread.sleep(3000)
+            splash.setKeepOnScrenCondition { false }
+        }
+
+
         setContentView(R.layout.activity_main)
 
         setFirstFragment()
