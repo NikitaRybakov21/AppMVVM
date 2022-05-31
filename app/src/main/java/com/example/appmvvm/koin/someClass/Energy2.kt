@@ -1,4 +1,6 @@
-package koin.someClass
+package com.example.appmvvm.koin.someClass
+
+import com.example.appmvvm.koin.someClass.IEnergy
 
 class Energy2(private val string : String = "string2") : IEnergy {
 

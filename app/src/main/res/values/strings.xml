@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">AppMVVM</string>
     <string name="fragmentone">FragmentOne</string>
+    <string name="search">search</string>
+    <string name="stop_timer_2">stop timer 2</string>
+    <string name="stop_timer_1">stop timer 1</string>
+    <string name="start_timer_2">start timer 2</string>
+    <string name="start_timer_1">start timer 1</string>
+    <string name="_0">0</string>
 </resources>

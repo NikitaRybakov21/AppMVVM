@@ -1,4 +1,4 @@
-package koin.appKoin
+package com.example.appmvvm.koin.appKoin
 
 import android.app.Application
 import org.koin.core.context.startKoin

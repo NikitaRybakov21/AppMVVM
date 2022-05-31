@@ -1,4 +1,4 @@
-package koin.someClass
+package com.example.appmvvm.koin.someClass
 
 class EnergyConstructor(private val string : String) {
 
